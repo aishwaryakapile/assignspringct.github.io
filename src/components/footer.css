@@ -1,0 +1,14 @@
+.upper-footer ul li{
+list-style-type: none;
+font-size: 18px;
+}
+.upper-footer{
+    background-color: rgb(165, 42, 83);
+    color: white;
+}
+.btm-footer{
+    background-color: rgb(230, 121, 121);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

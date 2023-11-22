@@ -1,0 +1,43 @@
+.main-section {
+    background-image: url(https://preferred-square.pages.dev/static/media/header-solution-bg.0c7c2284e36350874623.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 60vh;
+}
+
+.main-section .section-heading {
+    color: white;
+    font-size: 100px;
+}
+
+.tabcontent {
+    display: none;
+    text-align: left;
+    padding: 0px 12px;
+    width: 100%;
+    border-left: none;
+    height: 100%;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.sub-section ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.sub-section ul li button {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+@media (min-width:320px) and (max-width:1020px) {
+    .section-heading {
+        font-size: 40px !important;
+    }
+}
